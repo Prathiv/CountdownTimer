@@ -1,0 +1,89 @@
+    <!DOCTYPE html>
+    <html>
+
+
+        <head>
+            <link rel="stylesheet" href="CountdownTimer.css">
+        </head>
+
+
+
+        <body>
+            <div id="title">
+                DELTA FORCE<br>
+                Task 1:Countdown Timer
+            </div>
+            <div id="eventdetails" style="display:none" >
+                <div>
+                    Event Name:
+                </div>
+
+                <div>
+                    <input type="text" id="eventname" />
+                </div>
+                <br><br>
+
+                <div>
+                    SET<br>
+                    Date and Time of Launch:<br>[format= mm/dd/yyyy(space)hh:mm:ss ]
+                </div>
+
+                <div>
+                    <input type="datetime" id="deadline" />
+                </div>
+                <br><br>
+                <div>
+                    <button onclick="anon()" id="startbutton">Set Timer</button>
+                </div>
+            </div>
+
+
+
+
+
+            <div id="timer" style="display:block" >
+
+                <br><br><br><br>
+
+                <div class="timer">
+                    <div class="heading">Days   </div><br>
+                    <div id="days" class="time"></div>
+                </div>
+
+
+                <div class="timer">
+                    <div class="heading">Hours   </div><br>
+                    <div id="hours" class="time"></div>
+                </div>
+
+
+
+                <div class="timer">
+                    <div class="heading">Minutes   </div><br>
+                    <div id="minutes" class="time"></div>
+                </div>
+
+
+                <div class="timer">
+                    <div class="heading">Seconds   </div><br>
+                    <div id="seconds" class="time"></div>
+                </div>
+                <br><br><br>
+                <div>
+                    <button onclick="reset()" id="startbutton">RESET</button>
+                </div>
+            </div>
+
+            <br><br><br><br><br><br><br>
+            <div id="timeup" style="display:none"></div>
+
+
+
+
+
+            <script src="CountdownTimer.js"></script>
+        </body>
+
+
+
+    </html>

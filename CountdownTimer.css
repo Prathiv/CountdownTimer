@@ -1,0 +1,162 @@
+/*
+  CountdownTimer CSS External Stylesheet
+*/
+html
+{
+    background-position: center;
+    background-image: url("file:time3.jpg");
+    background-repeat: no-repeat;
+    background-size:  cover;
+    
+}
+
+body
+{
+    text-decoration-color: fuchsia;
+    border: 1px solid white;
+    margin: 60px;
+    height: 900px;
+    width: 1200px;
+    border-radius: 25px;
+    background-image: url("file:time2.png");
+    background-repeat: no-repeat;
+    background-size:  cover;
+    background-position: center center center;
+}
+
+#title
+{
+    padding: 20px;
+    font-family: "Arial Black", Gadget, sans-serif; 
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    
+}
+
+#eventdetails
+{
+    text-align: center;
+    background: rgba(0, 255, 0, 0.3);
+    border-radius: 15px;
+    margin-top: 5px;
+    margin-left: 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:  cover;
+    width:900px;
+    float: none;
+    padding:50px;
+    opacity: 1;
+    color: yellow;
+    font-size: 30px;
+    font-family: Tahoma, Geneva, sans-serif;
+}
+
+
+#eventname
+{
+    opacity: 1;
+    color: blue;
+    font-size: 30px;
+    font-family: cursive;
+}
+
+#deadline
+{
+    opacity: 1;
+    color: blue;
+    font-size: 30px;
+    font-family: cursive;
+}
+
+#countdownTimer
+{
+    display: inline-block;
+    opacity: 1;
+    color: white;
+    font-size: 30px;
+    font-family: cursive;
+}
+
+
+#startbutton
+{
+    width: 200px;
+    height:200px;
+    border-radius: 50% ;
+    background-image: url(round_button_0219.jpg);
+    background-repeat: no-repeat;
+    background-size:  cover;
+    background-position: center center center;
+    color: yellow;
+    padding: 20px 50px;
+    text-align: center center;
+    font-size: 30px;
+    margin: 2px 4px;
+    cursor: pointer;
+}
+
+#timer
+{
+    text-align: center;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 15px;
+    margin-top: 5px;
+    margin-left: 150px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:  cover;
+    width:900px;
+    float: none;
+    padding:10px;
+    opacity: 1;
+    color: yellow;
+    font-size: 30px;
+    font-family: Tahoma, Geneva, sans-serif;
+}
+.timer
+{
+    display: inline-block;
+    color: white;
+    
+}
+
+.heading
+{
+    font-size: 50px;
+    color: yellow;
+}
+
+.time
+{
+    border-radius: 50%;
+    align-content: center center center;
+    text-align: center center center;
+    height: 80px;
+    width: 210px;
+    background-color: red;
+    background-position: center center;
+    color: aqua;
+    font-size: 60px;
+}
+
+#timeup
+{
+    text-align: center;
+    background: rgba(0, 255, 0, 0.3);
+    border-radius: 15px;
+    margin-top: 5px;
+    margin-left: 150px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:  cover;
+    width:900px;
+    float: none;
+    padding:10px;
+    opacity: 1;
+    color: yellow;
+    font-size: 60px;
+    font-family: Tahoma, Geneva, sans-serif;
+}
+
